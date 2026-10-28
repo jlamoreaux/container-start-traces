@@ -1,0 +1,17 @@
+{
+  "name": "container-start-traces",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "types": "wrangler types",
+    "typecheck": "wrangler types && tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "wrangler": "^4.154.0"
+  },
+  "license": "MIT",
+  "description": "Observability for Cloudflare Containers start time using Workers traces and custom spans"
+}
